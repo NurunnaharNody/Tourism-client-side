@@ -1,0 +1,42 @@
+
+ /* tour qualities styles  */
+.qualities-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.quality-card{
+    margin: 20px;
+}
+
+/* tour quality tytle styles  */
+.quality-title{
+    font-family:'Courier New', Courier, monospace, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(202, 59, 3);
+}
+
+/* tour quality text styles */
+.quality-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(97, 95, 95);
+}
+
+@media only screen and (max-width:688px){
+    .qualities-card{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    /* .quality-card{
+       padding-left: 100px;
+     } */
+}
+@media only screen and (man-width:688px) and (max-width:991px){
+    .qualities-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}

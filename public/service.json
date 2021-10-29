@@ -1,0 +1,65 @@
+[
+    {
+      
+      "Title": "Certo, Poland",
+      "Description": "5 star hotel with 12 days duration.",
+      "Price":"$4500.00",
+      "img": "https://i.ibb.co/jyMstbK/Untitled-design-48.png"
+    },
+    {
+     
+      "Title": "Certo, Wales",
+      "Description": "5 star hotel with 10 days duration.",
+      "Price":"$4200.00",
+      "img": "https://i.ibb.co/BVDBtP4/Untitled-design-49.png"
+    },
+    {
+      
+      "Title": "Certo, Paris",
+      "Description": "5 star hotel with 4 days duration.",
+      "Price":"$4000.00",
+      "img": "https://i.ibb.co/nChKcLF/Untitled-design-50.png"
+    },
+    {
+      
+      "Title": "Certo, Greek",
+      "Description": "5 star hotel with 6 days duration.",
+      "Price":"$6500.00",
+      "img": "https://i.ibb.co/0tFY98V/Untitled-design-51.png"
+    },
+    {
+      
+      "Title": "Amalfi Coast Italy",
+      "Description": "5 star hotel with 5 days duration. ",
+      "Price":"$3500.00",
+      "img": "https://i.ibb.co/bmkCxXM/Untitled-design-52.png"
+    },
+    {
+     
+      "Title": "Dubai UAE",
+      "Description": "5 star hotel with 12 days duration.",
+      "Price":"$5500.00",
+      "img": "https://i.ibb.co/LJv4VB8/Untitled-design-53.png"
+    },
+      {
+     
+        "Title": "Budapest Hungary",
+        "Description": "5 star hotel with 10 days duration.",
+        "Price":"$7500.00",
+        "img": "https://i.ibb.co/0fjksFJ/Untitled-design-54.png"
+      },
+      {
+     
+        "Title": "Munish Germany",
+        "Description": "5 star hotel with 9 days duration.",
+        "Price":"$4500.00",
+        "img": "https://i.ibb.co/ryJTQpD/Untitled-design-55.png"
+      },
+      {
+     
+        "Title": "Stockholm Sweden",
+        "Description": "5 star hotel with 7 days duration.",
+        "Price":"$4000.00",
+        "img": "https://i.ibb.co/k4mLWbp/Untitled-design-56.png"
+      }
+  ]

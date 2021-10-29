@@ -1,0 +1,29 @@
+/* tour service title styles  */
+.tourservice-title{
+    color: rgb(156, 120, 18);
+      padding: 20px;
+  }
+  .tourservice-title h2{
+       font-size: 50px;
+       font-weight: bolder;
+       font-family:'Courier New', Courier, monospace ;
+  }
+  
+   /* tour service container  */
+  .tourservices-container{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap: 15px;
+  }
+  
+   /*  tour service responsive styles  */
+  @media only screen and (max-width:688px){
+      .tourservices-container{
+          grid-template-columns: repeat(1,1fr);
+      }
+  }
+  @media only screen and (man-width:688px) and (max-width:991px){
+      .tourservices-container{
+          grid-template-columns: repeat(2,1fr);
+      }
+  }

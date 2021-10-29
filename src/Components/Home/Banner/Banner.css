@@ -1,0 +1,34 @@
+  /* banner styles */
+
+.banner-section{
+    background-image: url(https://i.ibb.co/84ZHSzp/240-F-458347395-Wc-D0txlt-RRdc0wlp6-In-QEp-VFzshy-Zotr.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+/* banner title styles  */
+.banner-section h2{
+    font-size: 90px;
+    font-weight: bolder;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-section h4{
+    font-size: 50px;
+    font-weight:500;
+    padding: 50px;
+    font-family: fantasy;
+}
+/* banner text styles  */
+.banner-section p{
+    font-size: 22px;
+    color: rgb(36, 34, 7);
+    font-weight:bolder;
+    padding: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
