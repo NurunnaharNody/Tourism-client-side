@@ -1,0 +1,29 @@
+/* manage service title styles  */
+.manageservice-title{
+    color: rgb(156, 120, 18);
+      padding: 20px;
+  }
+  .manageservice-title h2{
+       font-size: 80px;
+       font-weight: bolder;
+       font-family:'Courier New', Courier, monospace ;
+  }
+  
+   /* manage service container  */
+  .manageservices-container{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 15px;
+  }
+  
+   /*  manage service responsive styles  */
+  @media only screen and (max-width:688px){
+      .manageservices-container{
+          grid-template-columns: repeat(1,1fr);
+      }
+  }
+  @media only screen and (man-width:688px) and (max-width:991px){
+      .manageservices-container{
+          grid-template-columns: repeat(1,1fr);
+      }
+  }

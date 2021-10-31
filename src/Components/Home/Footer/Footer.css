@@ -1,0 +1,45 @@
+/* footer section styles  */
+
+.footer-section{
+    background-color: rgb(61, 78, 22);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+/* footer logo styles  */
+
+.footer-logo{
+   padding:30px;
+}
+.footer-logo h3{
+    font-weight: bolder;
+    color: rgb(129, 121, 12);
+}
+
+
+/* footer contact dtyles  */
+.footer-contact h2{
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: serif;
+  color: rgb(129, 121, 12);
+}
+
+.footer-contact h3, h4{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: serif;
+    color: rgb(2, 2, 1);
+  }
+
+  @media only screen and (max-width:688px){
+    .footer-section{
+        display: inline;
+        background-color: rgb(251, 251, 249);
+    }
+}

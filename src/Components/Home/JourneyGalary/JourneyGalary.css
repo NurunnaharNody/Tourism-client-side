@@ -1,0 +1,22 @@
+.journeygalary-title{
+    color: rgb(156, 120, 18);
+      padding: 50px;
+      font-size: 50px;
+       font-weight: bolder;
+       font-family:'Courier New', Courier, monospace ;
+  }
+
+.journey-galary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+   
+}
+
+ @media only screen and (max-width:688px){
+    .galary-container{
+        display: none;
+    }
+} 
+

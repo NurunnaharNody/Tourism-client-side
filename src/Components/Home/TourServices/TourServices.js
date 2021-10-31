@@ -6,7 +6,7 @@ import './TourServices.css'
 const TourServices = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-          fetch('service.json')
+          fetch('https://polar-springs-14470.herokuapp.com/services')
           .then(res => res.json())
           .then(data=> setServices(data));
     }, [])
@@ -20,7 +20,7 @@ const TourServices = () => {
             <div className="tourservices-container">
             
             {
-                services.map(service => <TourService key={service.Price} service ={service}></TourService>)
+                services.map(service => <TourService key={service._id} service ={service}></TourService>)
             }
          </div>
         </div>

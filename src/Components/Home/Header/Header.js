@@ -20,14 +20,12 @@ const Header = () => {
         alt="React Bootstrap logo"
       />
       </Navbar.Brand>
-      <Navbar.Brand href="#home">TRAVELCO</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto mx-auto">
     <Nav.Link as={Link} to="/home">Home</Nav.Link>
-      <Nav.Link as={Link} to="/services">Services</Nav.Link>
-      <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
-      <Nav.Link as={Link} to="/contacts">Contacts</Nav.Link>
+      <Nav.Link as={Link} to="/addService">AddService</Nav.Link>
+      <Nav.Link as={Link} to="/manageService">ManageServices</Nav.Link>
       {user.email ?
         <Button onClick={logOut} className="btn-dark">Log Out </Button>
         :

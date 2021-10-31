@@ -1,0 +1,25 @@
+
+/* service button styles  */
+.button-service{
+    background-color: rgb(226, 111, 29);
+    font-weight: bolder;
+   
+}
+
+/* services sstyles  */
+.service-title{
+   font-weight: bolder;
+   color: rgb(24, 14, 1);
+}
+.service-title:hover{
+ color: rgb(204, 148, 43);
+}
+.service-price{
+    font-weight: bolder;
+    color: rgb(36, 31, 2);
+ }
+
+ .service-description{
+      font-size: 15px;
+      font-family:sans-serif;
+ }

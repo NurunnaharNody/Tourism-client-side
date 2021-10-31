@@ -6,7 +6,7 @@ import { faBox, faCaretSquareUp, faParagraph, faTags, faUmbrella, faUser } from 
 
 const TourQualities = () => {
     return (
-       <div className="qualities-card">
+       <div className="qualities-card container">
   
     <div className="quality-card">
     <Card style={{ width: '18rem' }}>
@@ -81,6 +81,7 @@ const TourQualities = () => {
       </Card.Text>
      </Card.Body>
     </Card>
+   
           </div>
        </div>
     );
