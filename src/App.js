@@ -10,8 +10,8 @@ import LogIn from './Components/LogIn/LogIn/LogIn';
 import Register from './Components/LogIn/Register/Register';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
-import ManageServices from './Components/Manageservices/ManageServices';
 import Footer from './Components/Home/Footer/Footer';
+import ManageServices from './Components/Manageservices/ManageServices';
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
        <Route path="/addService">
          <AddService></AddService>
          </Route>
-         <Route path="/manageService">
+         <Route path="/manageServices">
          <ManageServices></ManageServices>
          </Route>
          <PrivateRoute path="/details/:serviceId">

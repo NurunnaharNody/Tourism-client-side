@@ -3,14 +3,17 @@ import { Button, Card, Col, Row } from 'react-bootstrap';
 import './ManageServices.css';
 
 const ManageServices = () => {
-    const [services, setServices] = useState([]);
+    const [users, setUsers] = useState([]);
+
     useEffect(() =>{
-          fetch('https://polar-springs-14470.herokuapp.com/services')
+          fetch('https://polar-springs-14470.herokuapp.com/users')
           .then(res => res.json())
-          .then(data => setServices(data))
+          .then(data => setUsers(data))
     },[])
+
+
     const handleDelete = id =>{
-        const url = `https://polar-springs-14470.herokuapp.com/services/${id}`
+        const url = `https://polar-springs-14470.herokuapp.com/users/${id}`
         fetch(url, {
             method: 'DELETE'
         })
@@ -18,8 +21,8 @@ const ManageServices = () => {
         .then(data => {
             if(data.deletedCount){
                 alert('Successfully Deleted')
-                const remaining = services.filter(service => service._id !== id)
-            setServices(remaining);
+                const remaining = users.filter(user => user._id !== id)
+            setUsers(remaining);
             }
             
            
@@ -28,26 +31,25 @@ const ManageServices = () => {
     return (
         <div>
             <div className="manageservice-title">
-            <h2>Manage Services</h2>
+            <h2>User Info</h2>
            </div>
            
             <div className="manageservices-container">
                 {
-                    services.map(service => <div key={service._id}>
+                    users.map(user => <div key={user._id}>
                         <Row className="g-4 mx-auto p-5">
   {Array.from({ length:1}).map((_, idx) => (
     <Col>
       <Card className="card-style">
-        <Card.Img  variant="top" src={service.img} />
         <Card.Body className="service-card">
-          <Card.Title className="service-title"> {service.name} </Card.Title>
-          <Card.Title className="service-title"> {service.price} </Card.Title>
+          <Card.Title className="service-title"> {user.name} </Card.Title>
+          <Card.Title className="service-title"> {user.email} </Card.Title>
           <Card.Text>
-          {service.description}
+          {user.address}
           </Card.Text>
         </Card.Body>
       </Card>
-      <Button onClick={() => handleDelete(service._id)} className="m-3 bg-danger">Delete</Button>
+      <Button onClick={() => handleDelete(user._id)} className="m-3 bg-danger">Delete</Button>
     </Col>
   ))}
 </Row>
